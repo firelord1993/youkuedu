@@ -1,0 +1,15 @@
+$(".gofh").click(function(){
+	$("body,html").animate({scrollTop:0},1000);
+})
+$(".wx").mouseover(function(){
+	$(".weixin").css("display","block");
+})
+$(".wx").mouseleave(function(){
+	$(".weixin").css("display","none");
+})
+$(".mfyya,.mfyyb,.mfyyq").click(function(){
+	$(".mtk").css("display","block")
+})
+$(".close").click(function(){
+	$(".mtk").css("display","none")
+})

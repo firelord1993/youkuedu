@@ -1,0 +1,255 @@
+.block {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0;
+}
+* li {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+#ywkt {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 99;
+}
+.full {
+  background: url(../img/class/abcdefg.png) no-repeat center;
+  height: 300px;
+  text-align: center;
+  z-index: 999;
+}
+.title {
+  width: 1200px;
+  height: 55px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+.title .titleImg {
+  float: left;
+}
+.title .titleli {
+  float: right;
+}
+.title .titleli ul {
+  margin-right: 30px;
+}
+.title .titleli ul span {
+  float: right;
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  width: 200px;
+}
+.title .titleli ul span span {
+  display: block;
+  margin-left: 20px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 6px;
+}
+.title .titleli ul li {
+  float: left;
+}
+.title .titleli ul li:hover a {
+  border-bottom: 3px solid red;
+  color: red;
+}
+.title .titleli ul li a {
+  color: black;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  width: 75px;
+  height: 55px;
+}
+.title .titleli ul li:nth-last-child(2) a {
+  display: block;
+  width: 75px;
+  height: 55px;
+}
+.ywktcon {
+  width: 1200px;
+  margin: 0 auto;
+  height: 350px;
+}
+.ywktcon .ywconl {
+  margin-top: 80px;
+}
+.ywktcon .ywconl ul li {
+  margin: 20px 0;
+  font-size: 20px;
+  width: 170px;
+  height: 40px;
+  padding-left: 45px;
+  border-radius: 20px;
+  line-height: 40px;
+}
+.ywktcon .ywconl .rmtj {
+  background: url(../img/class/star.png) no-repeat 20px center;
+}
+.ywktcon .ywconl .rmtj:hover {
+  background: url(../img/class/star1.png) no-repeat left;
+}
+.ywktcon .ywconl .ywzx {
+  background: url(../img/class/tip.png) no-repeat 20px center;
+}
+.ywktcon .ywconl .ywzx:hover {
+  background: url(../img/class/tip1.png) no-repeat left;
+}
+.ywktcon .ywconl .xskt {
+  background: url(../img/class/screen.png) no-repeat 20px center;
+}
+.ywktcon .ywconl .xskt:hover {
+  background: url(../img/class/screen1.png) no-repeat left;
+}
+.ywktcon .ywconl .jzkt {
+  background: url(../img/class/doctor.png) no-repeat 20px center;
+}
+.ywktcon .ywconl .jzkt:hover {
+  background: url(../img/class/doctor1.png) no-repeat left;
+}
+.gotop {
+  z-index: 999;
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+}
+.gotop .gofh {
+  position: absolute;
+}
+.gotop .gofh .gotimg2 {
+  display: none;
+}
+.gotop .gofh:hover .gotimg {
+  display: none;
+}
+.gotop .gofh:hover .gotimg2 {
+  display: block;
+}
+.weixin {
+  display: none;
+  position: fixed;
+  right: 100px;
+  bottom: 165px;
+  z-index: 99999;
+}
+.mtk {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999999;
+}
+.mtk .mtknr {
+  position: relative;
+  padding: 80px 60px;
+  background-color: #ffffff;
+  margin: 10% auto 10%;
+  width: 800px;
+  height: 400px;
+  border-radius: 15px;
+}
+.mtk .mtknr .close {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 50px;
+  color: #CCCCCC;
+}
+.mtk .mtknr .mtkl p {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 24px;
+}
+.mtk .mtknr .mtkr {
+  padding-left: 30px;
+  border-left: 1px #C0C0C0 solid;
+}
+.mtk .mtknr .mtkr input {
+  width: 310px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.mtk .mtknr .mtkr select {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+.mtk .mtknr .mtkr .mfyyb {
+  width: 240px;
+  height: 50px;
+  margin: 0 auto;
+  background: #ea5d64;
+  text-align: center;
+  color: #F7F7F7;
+  line-height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.fsubmit {
+  margin-top: 50px;
+  z-index: 9999;
+  height: 60px;
+  line-height: 60px;
+  background-color: #4c4c4c;
+  width: 100%;
+  bottom: 60px;
+  text-align: center;
+}
+.fsubmit input {
+  width: 210px;
+  height: 35px;
+}
+.fsubmit select {
+  width: 90px;
+  height: 35px;
+}
+.fsubmit .mfst {
+  margin-left: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  width: 125px;
+  height: 38px;
+  background: red;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: 38px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #333;
+  text-align: center;
+  line-height: 2;
+}
+.footer p {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.footer p a {
+  color: #FFFFFF;
+  font-size: 12px;
+}

@@ -1,0 +1,95 @@
+$("#chuz").mouseover(function(){
+	$(".kemu2,.czyw").css({"display":"block"});
+	$(".kemu1,.kemu3,.kemu4,.xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$("#cc").mouseover(function(){
+	$(".kemu4,.xsc").css({"display":"block"});
+	$(".kemu1,.kemu3,.kemu2,.xxyw,.xxsx,.xxyy,.czyw,.czsx,.czyy,.czwl,.czhx,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.zkcc,.gkcc").css({"display":"none"});
+})
+$("#xx").mouseover(function(){
+	$(".kemu1,.xxyw").css({"display":"block"});
+	$(".kemu2,.kemu3,.kemu4,.xxsx,.xxyy,.czyw,.czsx,.czyy,.czwl,.czhx,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$("#gz").mouseover(function(){
+	$(".kemu3,.gzyw").css({"display":"block"});
+	$(".kemu1,.kemu2,.kemu4,.xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu11").mouseover(function(){
+	$(".xxyw").css({"display":"block"});
+	$(".xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu12").mouseover(function(){
+	$(".xxsx").css({"display":"block"});
+	$(".xxyw,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu13").mouseover(function(){
+	$(".xxyy").css({"display":"block"});
+	$(".xxyw,.xxsx,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu21").mouseover(function(){
+	$(".czyw").css({"display":"block"});
+	$(" .xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu22").mouseover(function(){
+	$(".czsx").css({"display":"block"});
+	$(" .xxyw,.xxsx,.xxyy,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu23").mouseover(function(){
+	$(".czyy").css({"display":"block"});
+	$(" .xxyw,.xxsx,.xxyy,.czsx,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu24").mouseover(function(){
+	$(".czwl").css({"display":"block"});
+	$(" .xxyw,.xxsx,.xxyy,.czsx,.czyy,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu25").mouseover(function(){
+	$(".czhx").css("display","block");
+	$(" .xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css({"display":"none"});
+})
+$(".kemu31").mouseover(function(){
+	$(".gzyw").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu32").mouseover(function(){
+	$(".gzsx").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzyy,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu33").mouseover(function(){
+	$(".gzyy").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzwl,.gzhx,.xsc,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu34").mouseover(function(){
+	$(".gzwl").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzhx,.xsc,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu35").mouseover(function(){
+	$(".gzhx").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.xsc,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu41").mouseover(function(){
+	$(".xsc").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.zkcc,.gkcc").css("display","none");
+})
+$(".kemu42").mouseover(function(){
+	$(".zkcc").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.gkcc").css("display","none");
+})
+$(".kemu43").mouseover(function(){
+	$(".gkcc").css("display","block");
+	$(".xxyw,.xxsx,.xxyy,.czsx,.czyy,.czwl,.czhx,.czyw,.gzyw,.gzsx,.gzyy,.gzwl,.gzhx,.xsc,.zkcc").css("display","none");
+})
+$(".gofh").click(function(){
+	$("body,html").animate({scrollTop:0},1000);
+})
+$(".wx").mouseover(function(){
+	$(".weixin").css("display","block");
+})
+$(".wx").mouseleave(function(){
+	$(".weixin").css("display","none");
+})
+$(".mfyya,.mfyyb,.mfyycf").click(function(){
+	$(".mtk").css("display","block")
+})
+$(".close").click(function(){
+	$(".mtk").css("display","none")
+})
